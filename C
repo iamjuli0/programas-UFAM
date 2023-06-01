@@ -1,0 +1,72 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+//Preenche vetor de 15 numeros:
+void preenche_vetor(int vet[], int tamanho){
+    int num, ind = 0;
+    
+    srand(time(NULL));
+    while (ind < tamanho){
+        
+        
+        vet[ind] = rand() % 50;
+        ind = ind + 1;
+        
+    }
+}
+int exibe_vetor(int vet[], int tamanho){
+    int ind = 0;
+    
+    printf("Vetor impresso: ");
+    while (ind < tamanho){
+        
+        printf("%d", vet[ind]);
+        
+        if (ind != tamanho - 1){
+            printf(" ");
+        }
+        
+        ind++;
+    }
+}
+void ordena_vetor(int vet[], int tamanho){
+    int i = 0;
+    int aux;
+    
+    while (i < tamanho){
+        
+        while
+        
+        
+        ind ++;
+    }
+    
+}
+
+void troca_pos(int menor, int maior){
+    int guarda;
+    
+    if (maior < menor){
+        guarda = menor;
+        menor = maior;
+        maior = guarda;
+    }
+    
+}
+
+
+
+int main() {
+
+int vetor_des[15];
+int vetor_ord[15];
+
+
+    preenche_vetor(vetor_des, 15);
+    ordena_vetor(vetor_des);
+    exibe_vetor(vetor_ord, 15);
+    
+    
+}
