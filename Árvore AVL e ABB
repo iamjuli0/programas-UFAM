@@ -1,0 +1,218 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Estrutura: FEITO - CERTO
+struct No {
+    int dados;
+    struct No *esquerdo;
+    struct No *direito;
+};
+// Renomear estrutura: FEITO - CERTO
+typedef struct No tipoNo;
+// Criar novo nó: FEITO - CERTO
+tipoNo* crianovo(int numero){
+    tipoNo* novo = (tipoNo*)malloc(sizeof(tipoNo));
+    if (novo == NULL){
+        printf("Erro!");
+    }
+    else {
+        novo->dados = numero;
+        novo->esquerdo = NULL;
+        novo->direito = NULL;
+    }
+    return novo;
+}
+// Inserção: FEITO - CERTO
+tipoNo* inserir(tipoNo* raiz, tipoNo* novo){
+    if (raiz == NULL){
+        raiz = novo;
+        return raiz;
+    }
+    if (raiz->dados > novo->dados) {
+        raiz->esquerdo = inserir(raiz->esquerdo, novo);
+    }
+    if (raiz->dados < novo->dados) {
+        raiz->direito = inserir(raiz->direito, novo);
+    }
+    
+    //balancear(raiz);
+    
+    return raiz;
+}
+//Busca: FEITO - CERTO
+int buscar(tipoNo* raiz, int chave){
+    if (raiz == NULL){
+        return 0;
+    }
+    if (raiz->dados == chave){
+        return 1;
+    }
+    if (raiz->dados > chave){
+        return(buscar(raiz->esquerdo, chave));
+    } else {
+		 return(buscar(raiz->direito, chave));  
+	 }
+}
+//Imprimir pré-ord: FEITO - CERTO
+void imprimir_pre(tipoNo* raiz){
+    if (raiz != NULL){
+        printf("%d ", raiz->dados);
+        imprimir_pre(raiz->esquerdo);
+        imprimir_pre(raiz->direito);
+    }
+    
+}
+//Comparação: FEITO - CERTO
+int maior(int primeiro, int segundo){
+	if (primeiro > segundo){
+		return primeiro;
+	} else {
+		return segundo;
+	}
+	
+}
+//EhFolha: FEITO - CERTO
+int EhFolha(tipoNo* raiz){
+	if ((raiz->esquerdo == NULL) && (raiz->direito == NULL)){
+		return 1;	
+	} else {
+		return 0;	
+	}
+}
+//Altura: FEITO - CERTO
+int altura(tipoNo* raiz){
+	if (raiz == NULL){
+		return 0;
+	}
+	return 1 + (maior(altura(raiz->esquerdo),altura(raiz->direito)));
+}
+// Balancear AVL:
+void balancear(tipoNo* raiz){
+    return 0;
+}
+//Quantidade de nós: FEITO - CERTO
+int qntd_nos(tipoNo* raiz){
+    if (raiz == NULL){
+        return 0;
+    } else{
+        return 1 + qntd_nos(raiz->esquerdo) + qntd_nos(raiz->direito);
+    }
+    
+}
+//Exibir folhas na ordem: FEITO - CERTO
+int exibir_folhas(tipoNo* raiz){
+	if (raiz == NULL){
+		return 0;
+	}
+	if (!EhFolha(raiz)){
+		 exibir_folhas(raiz->esquerdo);
+		 exibir_folhas(raiz->direito);
+	} else {
+	    printf("%d ", raiz->dados);
+	}
+
+}
+
+//PROGRAMA PRINCIPAL:
+int main(){
+    int opcao, temp_altura, temp_nos, novo_chave, chave;
+    tipoNo *inicio, *novo;
+    
+    printf("-----------------------------");
+    do{
+        printf("\nStatus da árvore: ");
+        if (inicio == NULL){
+            printf("Árvore vazia");
+        } else {
+            printf("Árvore não vazia");
+        }
+        printf("\n1 - Adicionar");
+        printf("\n2 - Remover");
+        printf("\n3 - Altura");
+        printf("\n4 - Exibir folhas");
+        printf("\n5 - Imprimir");
+        printf("\n6 - Buscar");
+        printf("\n7 - Quantidade de nós");
+        printf("\n0 - Sair");
+        printf("\n");
+        printf("\nDigite a opção: ");
+        scanf("%d", &opcao);
+        
+        
+        switch(opcao){
+            case 1: //FEITO
+            printf("\nOpcao 1 escolhida!");
+            printf("\nNúmero a ser adicionado à árvore: ");
+            scanf("%d", &novo_chave);
+            novo = crianovo(novo_chave);
+            inicio = inserir(inicio, novo);
+            printf("\n-----------------------------");
+            break;
+            
+            case 2:
+            printf("\nOpcao 2 escolhida!");
+            printf("\n-----------------------------");
+            break;
+            
+            case 3: //FEITO
+            printf("\nOpcao 3 escolhida!");
+            if (altura(inicio) == 0){
+                temp_altura = altura(inicio);
+                printf("\nAltura zero: %d", temp_altura);
+            } else{
+                temp_altura = altura(inicio);
+                printf("\nAltura não é zero: %d", temp_altura);
+            }
+            printf("\n-----------------------------");
+            break;
+            
+            case 4: //FEITO
+            printf("\nOpcao 4 escolhida!");
+            printf("\nFolhas na árvore: ");
+            exibir_folhas(inicio);
+            printf("\n-----------------------------");
+            break;
+            
+            case 5: //FEITO
+            printf("\nOpcao 5 escolhida!");
+            printf("\nImpressão da árvore: ");
+            imprimir_pre(inicio);
+            printf("\n-----------------------------");
+            break;
+            
+            case 6: //FEITO
+            printf("\nOpcao 6 escolhida!");
+            printf("\nChave a ser buscada: ");
+            scanf("%d", &chave);
+            if (buscar(inicio, chave) == 1){
+                printf("Valor encontrado!");
+            } else {
+                printf("Valor não encontrado!");
+            }
+            printf("\n-----------------------------");
+            break;
+            
+            case 7:
+            printf("\nOpcao 7 escolhida!");
+            if (qntd_nos(inicio) == 0){
+                printf("\nZero nós!");
+            } else{
+                temp_nos = qntd_nos(inicio);
+                printf("\nQuantidade de nós: %d", temp_nos);
+            }
+            printf("\n-----------------------------");
+            break;
+            
+            case 0: //FEITA
+            printf("\nCódigo terminado");
+            printf("\n-----------------------------");
+            break;
+            
+            default: //FEITA
+            printf("\nOpcao inválida, insira outra!");
+            printf("\n-----------------------------");
+            break;
+        }  
+    } while(opcao != 0);
+	return 0;
+}
