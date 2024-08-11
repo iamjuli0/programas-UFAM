@@ -1,0 +1,314 @@
+[2024-07-31 07:30:47] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:30:49] Comando recebido: pwd
+[2024-07-31 07:30:49] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 07:30:52] Comando recebido: ls
+[2024-07-31 07:30:52] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:32:11] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:32:19] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 07:32:19] Diretório não encontrado: C:\Users\julio\eclipse-workspace
+[2024-07-31 07:33:24] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:33:31] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 07:33:31] Diretório não encontrado: C:\Users\julio\eclipse-workspace
+[2024-07-31 07:40:06] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:45:41] Comando recebido: ls
+[2024-07-31 07:45:41] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:45:45] Comando recebido: pwd
+[2024-07-31 07:45:45] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 07:46:34] Comando recebido: cat FCFS.txt
+[2024-07-31 07:46:34] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 07:46:49] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 07:46:49] Diretório não encontrado: C:\Users\julio\eclipse-workspace
+[2024-07-31 07:48:05] Comando recebido: cd C:\Users\julio\Downloads
+[2024-07-31 07:48:05] Diretório não encontrado: C:\Users\julio\Downloads
+[2024-07-31 07:48:09] Comando recebido: cd C:\Users\julio\Downloads
+[2024-07-31 07:48:09] Diretório não encontrado: C:\Users\julio\Downloads
+[2024-07-31 07:48:15] Comando recebido: cd Downloads
+[2024-07-31 07:48:15] Diretório não encontrado: Downloads
+[2024-07-31 07:48:19] Comando recebido: C:\Users\julio
+[2024-07-31 07:48:19] Erro ao executar o comando: C:\Users\julio
+[2024-07-31 07:53:21] Comando recebido: ls
+[2024-07-31 07:53:21] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:53:52] Comando recebido: mv FCFS.txt C:\Users\julio\Downloads
+[2024-07-31 07:56:56] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:57:03] Comando recebido: pwd
+[2024-07-31 07:57:03] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 07:57:06] Comando recebido: ls
+[2024-07-31 07:57:06] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 07:57:15] Comando recebido: pwd & ls
+[2024-07-31 07:57:15] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 07:58:53] Comando recebido: pwd&
+[2024-07-31 07:58:53] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:00:46] Comando recebido: mv FCFS.txt C:\Users\julio\Downloads
+[2024-07-31 08:00:46] Erro ao mover o arquivo: FCFS.txt para C:\Users\julio\Downloads
+[2024-07-31 08:05:13] Comando recebido: pwd
+[2024-07-31 08:05:13] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:05:16] Comando recebido: cd documents
+[2024-07-31 08:05:16] Diretório não encontrado: documents
+[2024-07-31 08:05:24] Comando recebido: cd Documentes
+[2024-07-31 08:05:24] Diretório não encontrado: Documentes
+[2024-07-31 08:05:27] Comando recebido: cd Documents
+[2024-07-31 08:05:27] Diretório não encontrado: Documents
+[2024-07-31 08:11:13] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:11:15] Comando recebido: ls
+[2024-07-31 08:11:15] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:11:21] Comando recebido: cat FCFS.txt
+[2024-07-31 08:11:21] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 08:11:36] Comando recebido: pwd
+[2024-07-31 08:11:36] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:11:39] Comando recebido: cd
+[2024-07-31 08:11:49] Comando recebido: cd documents
+[2024-07-31 08:11:49] Diretório não encontrado: documents
+[2024-07-31 08:11:53] Comando recebido: cd Documents
+[2024-07-31 08:11:53] Diretório não encontrado: Documents
+[2024-07-31 08:11:59] Comando recebido: cd :\Users\julio\eclipse-workspace
+[2024-07-31 08:12:06] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:12:11] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 08:12:11] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:12:15] Comando recebido: pwd
+[2024-07-31 08:12:15] Diretório atual: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:12:53] Comando recebido: ls
+[2024-07-31 08:12:53] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:13:03] Comando recebido: cat teste.txt
+[2024-07-31 08:13:03] Conteúdo do arquivo teste.txt exibido.
+[2024-07-31 08:14:41] Comando recebido: cd C:\Users\julio\Downloads
+[2024-07-31 08:14:41] Diretório alterado para: C:\Users\julio\Downloads
+[2024-07-31 08:14:44] Comando recebido: ls
+[2024-07-31 08:14:46] Listagem do diretório: C:\Users\julio\Downloads
+[2024-07-31 08:15:07] Comando recebido: cat Prio-6.txt
+[2024-07-31 08:15:07] Conteúdo do arquivo Prio-6.txt exibido.
+[2024-07-31 08:15:32] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:15:34] Comando recebido: ls
+[2024-07-31 08:15:34] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:15:36] Comando recebido: pwd
+[2024-07-31 08:15:36] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:15:57] Comando recebido: cd ~
+[2024-07-31 08:15:57] Diretório alterado para: C:\Users\julio
+[2024-07-31 08:16:01] Comando recebido: cd ..
+[2024-07-31 08:16:01] Diretório alterado para: C:\Users
+[2024-07-31 08:16:05] Comando recebido: cd ~
+[2024-07-31 08:16:05] Diretório alterado para: C:\Users\julio
+[2024-07-31 08:16:09] Comando recebido: ls
+[2024-07-31 08:16:09] Listagem do diretório: C:\Users\julio
+[2024-07-31 08:16:36] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 08:16:36] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:16:38] Comando recebido: ls
+[2024-07-31 08:16:38] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:26:36] Comando recebido: pwd
+[2024-07-31 08:26:36] Diretório atual: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:26:43] Comando recebido: rm teste.txt
+[2024-07-31 08:26:43] Arquivo removido: teste.txt
+[2024-07-31 08:26:51] Comando recebido: ls
+[2024-07-31 08:26:51] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:35:50] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:42:19] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 08:42:22] Comando recebido: pwd
+[2024-07-31 08:42:22] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:42:28] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 08:42:28] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:42:50] Comando recebido: ls
+[2024-07-31 08:42:50] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 08:43:09] Comando recebido: mv teste.txt C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:43:09] Erro ao mover o arquivo: teste.txt para C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 08:43:30] Comando recebido: cat teste.txt
+[2024-07-31 08:43:30] Conteúdo do arquivo teste.txt exibido.
+[2024-07-31 08:43:47] Comando recebido: mv teste.txt trabalho4-SO
+[2024-07-31 08:43:47] Erro ao mover o arquivo: teste.txt para trabalho4-SO
+[2024-07-31 10:50:10] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 10:50:23] Comando recebido: echo oi
+[2024-07-31 10:50:23] Echo: oi
+[2024-07-31 10:51:30] Comando recebido: sleep
+[2024-07-31 10:51:30] Erro ao executar o comando: sleep
+[2024-07-31 10:58:57] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 10:59:03] Comando recebido: echo OIIIIIIIIII
+[2024-07-31 10:59:03] Echo: OIIIIIIIIII
+[2024-07-31 10:59:07] Comando recebido: pwd
+[2024-07-31 10:59:07] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 10:59:13] Comando recebido: sleep 1000
+[2024-07-31 10:59:13] Dormindo por 1000 segundos
+[2024-07-31 10:59:37] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 10:59:43] Comando recebido: sleep 6
+[2024-07-31 10:59:43] Dormindo por 6 segundos
+[2024-07-31 10:59:49] Despertou após 6 segundos
+[2024-07-31 10:59:58] Comando recebido: pwd
+[2024-07-31 10:59:58] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 11:00:03] Comando recebido: sleep 10
+[2024-07-31 11:00:03] Dormindo por 10 segundos
+[2024-07-31 11:00:13] Despertou após 10 segundos
+[2024-07-31 11:00:13] Comando recebido: pwd
+[2024-07-31 11:00:13] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 11:07:04] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 11:08:16] Comando recebido: sleep 10
+[2024-07-31 11:08:16] Iniciando sleep por 10 segundos
+[2024-07-31 11:08:26] Sleep finalizado após 10 segundos
+[2024-07-31 11:08:30] Comando recebido: pwd
+[2024-07-31 11:08:30] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 11:08:36] Comando recebido: ls
+[2024-07-31 11:08:36] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 11:08:44] Comando recebido: echo oiii sou eu
+[2024-07-31 11:08:44] Echo: oiii sou eu
+[2024-07-31 11:08:52] Comando recebido: cat FCFS.txt
+[2024-07-31 11:08:52] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 11:51:36] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 11:52:25] Comando recebido: ls
+[2024-07-31 11:52:25] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 11:52:30] Comando recebido: pwd
+[2024-07-31 11:52:30] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 11:52:49] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 11:52:49] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 11:52:51] Comando recebido: ls
+[2024-07-31 11:52:51] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 11:52:57] Comando recebido: rm teste.txt
+[2024-07-31 11:52:57] Arquivo removido: teste.txt
+[2024-07-31 11:52:59] Comando recebido: ls
+[2024-07-31 11:52:59] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 11:58:58] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 11:59:01] Comando recebido: ls
+[2024-07-31 11:59:01] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 11:59:13] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 11:59:13] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 11:59:15] Comando recebido: ls
+[2024-07-31 11:59:15] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 11:59:21] Comando recebido: cat velho.txt
+[2024-07-31 11:59:21] Conteúdo do arquivo velho.txt exibido.
+[2024-07-31 11:59:26] Comando recebido: cat novo.txt
+[2024-07-31 11:59:26] Conteúdo do arquivo novo.txt exibido.
+[2024-07-31 12:00:16] Comando recebido: cp
+[2024-07-31 12:00:28] Comando recebido: cp velho.txt novo.txt
+[2024-07-31 12:00:28] Arquivo copiado de velho.txt para novo.txt
+[2024-07-31 12:00:38] Comando recebido: cat velho.txt
+[2024-07-31 12:00:38] Conteúdo do arquivo velho.txt exibido.
+[2024-07-31 12:00:43] Comando recebido: cat novo.txt
+[2024-07-31 12:00:43] Conteúdo do arquivo novo.txt exibido.
+[2024-07-31 12:32:04] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 12:32:08] Comando recebido: ls
+[2024-07-31 12:32:08] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 12:32:18] Comando recebido: cat FCFS.txt
+[2024-07-31 12:32:18] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 12:32:25] Comando recebido: echo oiii
+[2024-07-31 12:32:25] Echo: oiii
+[2024-07-31 12:32:36] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 12:32:36] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 12:32:37] Comando recebido: ls
+[2024-07-31 12:32:37] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 12:32:48] Comando recebido: cat novo.txt
+[2024-07-31 12:32:48] Conteúdo do arquivo novo.txt exibido.
+[2024-07-31 12:33:18] Comando recebido: rm velho.txt
+[2024-07-31 12:33:18] Arquivo removido: velho.txt
+[2024-07-31 12:33:21] Comando recebido: ls
+[2024-07-31 12:33:21] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 12:33:28] Comando recebido: sleep 5
+[2024-07-31 12:33:28] Iniciando sleep por 5 segundos
+[2024-07-31 12:33:33] Sleep finalizado após 5 segundos
+[2024-07-31 12:33:43] Comando recebido: pwd
+[2024-07-31 12:33:43] Diretório atual: C:\Users\julio\eclipse-workspace
+[2024-07-31 15:54:29] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 15:54:36] Comando recebido: cd ..
+[2024-07-31 15:54:36] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 15:54:40] Comando recebido: cd ..
+[2024-07-31 15:54:40] Diretório alterado para: C:\Users\julio
+[2024-07-31 15:54:43] Comando recebido: cd ..
+[2024-07-31 15:54:43] Diretório alterado para: C:\Users
+[2024-07-31 15:54:45] Comando recebido: cd ..
+[2024-07-31 15:54:45] Diretório alterado para: C:\
+[2024-07-31 15:54:48] Comando recebido: cd ..
+[2024-07-31 15:54:48] Diretório alterado para: C:\
+[2024-07-31 15:54:50] Comando recebido: cd ~
+[2024-07-31 15:54:50] Diretório alterado para: C:\Users\julio
+[2024-07-31 15:54:53] Comando recebido: cd ~
+[2024-07-31 15:54:53] Diretório alterado para: C:\Users\julio
+[2024-07-31 15:54:56] Comando recebido: cd ~
+[2024-07-31 15:54:56] Diretório alterado para: C:\Users\julio
+[2024-07-31 15:55:01] Comando recebido: cd home
+[2024-07-31 15:55:01] Diretório não encontrado: home
+[2024-07-31 16:00:45] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:00:57] Comando recebido: echo oiiii &
+[2024-07-31 16:00:57] Echo: oiiii
+[2024-07-31 16:01:35] Comando recebido: ls
+[2024-07-31 16:01:35] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:01:42] Comando recebido: ls | grep txt
+[2024-07-31 16:01:42] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:04:11] Comando recebido: log.txt &
+[2024-07-31 16:04:11] Erro ao executar o comando: log.txt
+[2024-07-31 16:04:17] Comando recebido: ls log.txt &
+[2024-07-31 16:04:17] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:04:25] Comando recebido: cat FCFS.txt
+[2024-07-31 16:04:25] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:04:32] Comando recebido: cat FCFS.txt &
+[2024-07-31 16:04:32] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:04:39] Comando recebido: cat log.txt &
+[2024-07-31 16:04:39] Conteúdo do arquivo log.txt exibido.
+[2024-07-31 16:05:14] Comando recebido: cat FCFS.txt&
+[2024-07-31 16:05:14] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:06:53] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:06:58] Comando recebido: ls
+[2024-07-31 16:06:58] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:07:05] Comando recebido: ls log.txt&
+[2024-07-31 16:07:05] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:07:15] Comando recebido: cat FCFS.txt&
+[2024-07-31 16:07:15] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:07:21] Comando recebido: cat FCFS.txt &
+[2024-07-31 16:07:21] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:07:27] Comando recebido: cat log.txt &
+[2024-07-31 16:07:27] Conteúdo do arquivo log.txt exibido.
+[2024-07-31 16:08:15] Comando recebido: sleep 10 &
+[2024-07-31 16:08:15] Iniciando sleep por 10 segundos
+[2024-07-31 16:08:25] Sleep finalizado após 10 segundos
+[2024-07-31 16:08:25] Comando recebido: vamos
+[2024-07-31 16:08:25] Erro ao executar o comando: vamos
+[2024-07-31 16:08:25] Comando recebido: ls
+[2024-07-31 16:08:25] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:15:11] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:15:17] Comando recebido: sleep 1 &
+[2024-07-31 16:15:17] Iniciando sleep por 1 segundos
+[2024-07-31 16:15:18] Sleep finalizado após 1 segundos
+[2024-07-31 16:16:28] Comando recebido: ls &
+[2024-07-31 16:16:28] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:16:33] Comando recebido: pwd
+[2024-07-31 16:16:33] Diretório atual: C:\Users\julio\eclipse-workspace\trabalho4-SO
+[2024-07-31 16:16:39] Comando recebido: sleep 5 &
+[2024-07-31 16:16:39] Iniciando sleep por 5 segundos
+[2024-07-31 16:16:44] Sleep finalizado após 5 segundos
+[2024-07-31 16:17:46] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:17:49] Comando recebido: sleep 5
+[2024-07-31 16:17:49] Iniciando sleep por 5 segundos
+[2024-07-31 16:17:54] Sleep finalizado após 5 segundos
+[2024-07-31 16:17:58] Comando recebido: sleep 10 &
+[2024-07-31 16:17:58] Iniciando sleep por 10 segundos
+[2024-07-31 16:17:58] Sleep iniciado em background por 10 segundos
+[2024-07-31 16:18:03] Comando recebido: cat FCFS.txt
+[2024-07-31 16:18:03] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:18:08] Sleep finalizado após 10 segundos
+[2024-07-31 16:18:11] Comando recebido: cat FCFS.txt &
+[2024-07-31 16:18:11] Conteúdo do arquivo FCFS.txt exibido.
+[2024-07-31 16:18:37] Comando recebido: echo oi &
+[2024-07-31 16:18:37] Echo: oi
+[2024-07-31 16:18:45] Comando recebido: ls
+[2024-07-31 16:18:45] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 16:18:50] Comando recebido: cat log.txt
+[2024-07-31 16:18:50] Conteúdo do arquivo log.txt exibido.
+[2024-07-31 17:42:23] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 17:42:27] Comando recebido: ls
+[2024-07-31 17:42:27] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 17:42:29] Comando recebido: cd
+[2024-07-31 17:42:33] Comando recebido: cd ~
+[2024-07-31 17:42:33] Diretório alterado para: C:\Users\julio
+[2024-07-31 17:42:46] Comando recebido: cd C:\Users\julio\eclipse-workspace
+[2024-07-31 17:42:46] Diretório alterado para: C:\Users\julio\eclipse-workspace
+[2024-07-31 17:42:48] Comando recebido: ls
+[2024-07-31 17:42:48] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 17:42:51] Comando recebido: grep
+[2024-07-31 17:42:53] Comando recebido: grep txt
+[2024-07-31 17:43:09] Comando recebido: grep p novo.txt
+[2024-07-31 17:43:10] Grep executado em novo.txt com termo p
+[2024-07-31 17:43:20] Comando recebido: grep v novo.txt
+[2024-07-31 17:43:20] Grep executado em novo.txt com termo v
+[2024-07-31 17:43:29] Comando recebido: ls
+[2024-07-31 17:43:29] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 17:43:32] Comando recebido: ls &
+[2024-07-31 17:43:32] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 17:43:49] Comando recebido: ls | cat novo.txt
+[2024-07-31 17:43:49] Listagem do diretório: C:\Users\julio\eclipse-workspace
+[2024-07-31 17:43:50] Conteúdo do arquivo novo.txt exibido.
+[2024-07-31 17:48:07] Inicializando shell no diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
+[2024-07-31 17:48:10] Comando recebido: ls
+[2024-07-31 17:48:10] Listagem do diretório: C:\Users\julio\eclipse-workspace\trabalho4-SO\.
