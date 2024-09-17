@@ -7,7 +7,7 @@ int main(){
     //std::ifstream imagein;
     std::ofstream imageout;
 
-    imageout.open("PPM_Images.ppm");
+    imageout.open("imagemOriginal.ppm");
 
     if (imageout.is_open()){
 
@@ -25,9 +25,9 @@ int main(){
 
         if(w <= 125){
             if(h <= 125){
-                imageout << 0 << std::endl; //PRETO
-                imageout << 0 << std::endl;
-                imageout << 0 << std::endl;
+                imageout << 50 << std::endl; //PRETO
+                imageout << 50 << std::endl;
+                imageout << 50 << std::endl;
             } else{
                 imageout << 255 << std::endl; //BRANCO
                 imageout << 255 << std::endl;
