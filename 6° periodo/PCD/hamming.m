@@ -9,14 +9,14 @@ function saida = hammingGeradora(k,n)
  identidade = eye(n);
  matriz_paridade = [];
 
- for i = 1:k
+ for (i = 1:k)
      teste = i;
      if (teste == 1 || EhPotencia(teste,2))
          continue;
      end
 
      coluna_atual = [];
-     for j = 0:indice_paridade
+     for (j = 0:indice_paridade)
          elemento = transformada(i, j);
          coluna_atual = [coluna_atual; elemento];
      end
@@ -39,7 +39,7 @@ function saida = distMinima(matriz)
      vetor = [];
      [linhas, colunas] = size(matriz);
 
-     for i = 1:linhas
+     for (i = 1:linhas)
          linha_atual = matriz(i, :);
          peso = sum(linha_atual(:));
          vetor = [vetor, [peso]];
@@ -57,6 +57,22 @@ function saida = correcErros(matriz)
      dist = distMinima(matriz);
      saida = floor((dist-1)/2);
 end
+% ------------------------------ Mensagens Possíveis -------------------------------
+function saida = mensagens(n)
+     saida = [];
+     quantidade = (2^n)-1;
+     
+     for (i = 0:quantidade)
+         saida = [saida, i];
+     end
+
+     saida = dec2bin(saida, 3);
+end
+% ------------------------------ Códigos equivalentes ------------------------------
+function saida = codigos(n)
+     saida = [];
+     
+end
 % >>>>>>>>>>>>>>>>>>>>>>>>>>> Funcoes Secundarias <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 % ----------------- Verifica se um número é potencia de outro ----------------------
 function resultado = EhPotencia(k,pot)
@@ -71,7 +87,7 @@ end
 % ------ Verifica a quantidade de bits de paridade de um código com saída k --------
 function quantidade = bitsParidade(k)
      quantidade = 0;
-     for i = 1:k
+     for (i = 1:k)
          if EhPotencia(i,2)
              quantidade++;
          end
