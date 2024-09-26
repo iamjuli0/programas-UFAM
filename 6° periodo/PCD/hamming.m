@@ -29,6 +29,9 @@ function resultado = EhPotencia(k,pot)
     end
 
 end
+% -----------------------------
+% ATUALIZACAO 26/09/2024
+% -----------------------------
 
 % Funcao Principal
 
@@ -55,8 +58,6 @@ function saida = hamming(k,n)
  display(matriz_paridade);
 
 end
-
-% ATUALIZACAO 26/09/2024
 
 % Funcoes Secundarias
 
