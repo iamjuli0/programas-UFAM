@@ -24,7 +24,7 @@ function saida = hamming(k,n)
      matriz_paridade = [matriz_paridade, coluna_atual];
  end
  
- saida = transpose(matriz_paridade);
+ saida = [identidade, transpose(matriz_paridade)];
 end
 
 % Funcoes Secundarias
