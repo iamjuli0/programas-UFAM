@@ -27,20 +27,20 @@ function saida = hammingGeradora(k,n)
  saida = [identidade, transpose(matriz_paridade)];
 end
 % ---------------------------- Verificação de Paridade Hamming ---------------------
-function saida = hammingVerificacao(matriz)
-     [linhas, colunas] = size(matriz);
-     matriz_paridade = matriz(1:linhas, (linhas+1):colunas);
+function saida = hammingVerificacao(matrizGeradora)
+     [linhas, colunas] = size(matrizGeradora);
+     matriz_paridade = matrizGeradora(1:linhas, (linhas+1):colunas);
      transposta_paridade = transpose(matriz_paridade);
      identidade = eye(colunas-linhas);
      saida = [transposta_paridade, identidade];
 end
 % ------------------------- Distância mínima do codificador ------------------------
-function saida = distMinima(matriz)
+function saida = distMinima(matrizGeradora)
      vetor = [];
-     [linhas, colunas] = size(matriz);
+     [linhas, colunas] = size(matrizGeradora);
 
      for (i = 1:linhas)
-         linha_atual = matriz(i, :);
+         linha_atual = matrizGeradora(i, :);
          peso = sum(linha_atual(:));
          vetor = [vetor, [peso]];
      end
@@ -48,19 +48,15 @@ function saida = distMinima(matriz)
      saida = min(vetor(:));
 end
 % ------------------------- Detecção e Correção de Erros ---------------------------
-function saida = detecErros(matriz)
-     dist = distMinima(matriz);
-     saida = floor(dist-1);
-end
-
-function saida = correcErros(matriz)
-     dist = distMinima(matriz);
-     saida = floor((dist-1)/2);
+function [d, c] = analisaErros(matrizGeradora)
+     dist = distMinima(matrizGeradora);
+     d = floor(dist-1);
+     c = floor((dist-1)/2);
 end
 % ------------------------------ Mensagens Possíveis -------------------------------
-function saida = mensagens(n)
+function saida = mensagens(entrada)
      saida = [];
-     quantidade = (2^n)-1;
+     quantidade = (2^entrada)-1;
      
      for (i = 0:quantidade)
          saida = [saida, i];
