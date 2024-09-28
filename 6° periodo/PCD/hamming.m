@@ -54,7 +54,7 @@ function [d, c] = analisaErros(matrizGeradora)
      c = floor((dist-1)/2);
 end
 % ------------------------------ Mensagens Possíveis -------------------------------
-function saida = mensagens(entrada)
+function saida = mensagensImpressao(entrada)
      saida = [];
      quantidade = (2^entrada)-1;
      
@@ -64,6 +64,17 @@ function saida = mensagens(entrada)
 
      saida = dec2bin(saida, 3);
 end
+
+function saida = mensagensConversao(entrada)
+     saida = [];
+     quantidade = (2^entrada)-1;
+     
+     for (i = 0:quantidade)
+         trans = dec2bin(i);
+         saida = [saida, i];
+     end
+end
+
 % ------------------------------ Códigos equivalentes ------------------------------
 function saida = codigos(n)
      saida = [];
