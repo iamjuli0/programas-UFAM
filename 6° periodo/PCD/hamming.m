@@ -57,28 +57,33 @@ end
 function saida = mensagensImpressao(entrada)
      saida = [];
      quantidade = (2^entrada)-1;
-     
+
      for (i = 0:quantidade)
          saida = [saida, i];
      end
-
-     saida = dec2bin(saida, 3);
+     saida = dec2bin(saida, entrada);
 end
+% ------------------------------ Códigos Possíveis ---------------------------------
+function saida = codigosImpressao (mensagens, mGeradora)
+  [linhas, colunas] = size(mensagens);
+  saida = [];
 
-function saida = mensagensConversao(entrada)
-     saida = [];
-     quantidade = (2^entrada)-1;
-     
-     for (i = 0:quantidade)
-         trans = dec2bin(i);
-         saida = [saida, i];
-     end
-end
+  for (i = 1:linhas)
+    temp = [];
 
-% ------------------------------ Códigos equivalentes ------------------------------
-function saida = codigos(n)
-     saida = [];
-     
+    for (j = 1:colunas)
+      num = str2num(mensagens(i,j));
+      linhaAtual = mGeradora(j,:);
+      linhaMultiplicada = num*linhaAtual;
+      temp = [temp; linhaMultiplicada];
+      somas = sum(temp);
+      res = mod(somas, 2);
+    end
+    saida = [saida; res];
+
+  end
+  saida = num2str(saida);
+  saida = strrep(saida, ' ', '');
 end
 % >>>>>>>>>>>>>>>>>>>>>>>>>>> Funcoes Secundarias <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 % ----------------- Verifica se um número é potencia de outro ----------------------
