@@ -1,0 +1,10 @@
+> conta(4)
+Valor a ser pago será de 50 reais pelos 4GBs
+> conta(7)
+Valor a ser pago será de 70 reais pelos 7GBs
+> conta(10)
+Valor a ser pago será de 100 reais pelos 10GBs
+> conta(15)
+Valor a ser pago será de 75 reais pelos 15GBs
+> conta(20)
+Valor a ser pago será de 100 reais pelos 20GBs

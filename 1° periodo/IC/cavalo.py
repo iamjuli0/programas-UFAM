@@ -1,0 +1,26 @@
+def pert(x,a,b) : return (a <= x <= b)
+def val1(x1,y1) : return pert(x1,1,8) and pert(y1,1,8)
+def val2(x2,y2) : return pert(x2,1,8) and pert(y2,1,8)
+
+def mov1(x1,y1) : return (x1+2, y1+1)
+def mov2(x1,y1) : return (x1+1, y1+2)
+def mov3(x1,y1) : return (x1-1, y1+2)
+def mov4(x1,y1) : return (x1-2, y1+1)
+def mov5(x1,y1) : return (x1-2, y1-1)
+def mov6(x1,y1) : return (x1-1, y1-2)
+def mov7(x1,y1) : return (x1+1, y1-2)
+def mov8(x1,y1) : return (x1+2, y1-1)
+
+def possivel(x1,y1,x2,y2) :
+	if not val1(x1,y1) : return (False)
+	elif not val2(x2,y2) : return (False)
+	else :
+		if (mov1(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov2(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov3(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov4(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov5(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov6(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov7(x1,y1)  == (x2,y2)) : return (True)
+		elif (mov8(x1,y1)  == (x2,y2)) : return (True)
+		else : return (False)
