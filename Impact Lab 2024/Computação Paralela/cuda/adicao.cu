@@ -1,14 +1,15 @@
 #include <stdio.h>
+#define N 512
 
-__global__ void add(void){
-
+__global__ void add(int *a, int *b, int *c){
+    c[blockIdx.x] = a[blockIdx.x] + b[blockIdx.x];
 }
 
 int main(void){
 
     int a, b, c;
     int *d_a, *d_b, *d_c;
-    int size = sizeof(int);
+    int size = N * sizeof(int);
 
     //Good Practice Naming - Memory Allocation
     // d_validable
